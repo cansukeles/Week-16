@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="thankyou.html" method="get">
+        <label for="name">First Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="name">Last Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="password" aria-required="true">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Kadın</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Erkek</label><br>
+        <input type="radio" checked="true" id="unknown" name="gender" value="unknown">
+        <label for="unknown">I don't want to specify</label><br>
+
+        <p>Your favorite fruit:</p>
+        <select name="fruit">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+            <option value="Orange">Orange</option>
+            <option value="mandarin">Mandarin</option>
+            <option value="other">Other</option>
+          </select><br> <br>
+        
+
+        
+        <label for="message">Mesajınız:</label><br>
+        <textarea id="message" name="message" cols="30" rows="8"></textarea><br><br>
+        
+        <input type="submit" value="Gönder">
+      </form>
+    
+</body>
+</html>
